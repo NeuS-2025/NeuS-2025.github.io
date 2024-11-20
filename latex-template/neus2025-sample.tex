@@ -1,0 +1,57 @@
+\documentclass{neus2025}
+
+% The following packages will be automatically loaded:
+% amsmath, amssymb, natbib, graphicx, url, algorithm2e
+
+\title[Short Title]{Full Title of Article}
+\usepackage{times}
+% Use \Name{Author Name} to specify the name.
+% If the surname contains spaces, enclose the surname
+% in braces, e.g. \Name{John {Smith Jones}} similarly
+% if the name has a "von" part, e.g \Name{Jane {de Winter}}.
+% If the first letter in the forenames is a diacritic
+% enclose the diacritic in braces, e.g. \Name{{\'E}louise Smith}
+
+% Two authors with the same address
+% \coltauthor{\Name{Author Name1} \Email{abc@sample.com}\and
+%  \Name{Author Name2} \Email{xyz@sample.com}\\
+%  \addr Address}
+
+% Three or more authors with the same address:
+% \coltauthor{\Name{Author Name1} \Email{an1@sample.com}\\
+%  \Name{Author Name2} \Email{an2@sample.com}\\
+%  \Name{Author Name3} \Email{an3@sample.com}\\
+%  \addr Address}
+
+% Authors with different addresses:
+\author{%
+ \Name{Author Name1} \Email{abc@sample.com}\\
+ \addr Address 1
+ \AND
+ \Name{Author Name2} \Email{xyz@sample.com}\\
+ \addr Address 2%
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  Abstract text.
+\end{abstract}
+
+\begin{keywords}
+  List of keywords.
+\end{keywords}
+
+\section{Introduction}
+
+\begin{itemize}
+  \item All submissions can be up to 10 pages in length, in this PMLR format, excluding references and appendices.
+\end{itemize}
+
+\acks{Acknowledgements text.}
+
+\bibliography{yourbibfile}
+
+\end{document}
