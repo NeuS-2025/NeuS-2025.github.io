@@ -460,3 +460,17 @@ section#sponsors ul {
 section#sponsors img {
     max-height: 3em;
 }
+
+.ul-unstyled {
+    list-style: disc;
+    display: block;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.li-unstyled {
+    display: list-item;
+    margin-top: 0.15em;
+    list-style: inside;
+}
