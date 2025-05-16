@@ -474,3 +474,7 @@ section#sponsors img {
     margin-top: 0.15em;
     list-style: inside;
 }
+
+i {
+    font-style: italic;
+}
